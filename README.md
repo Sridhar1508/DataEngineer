@@ -1,4 +1,4 @@
-![Header](https://github.com/srid20ad047/Portfolio-New/blob/master/github-header-img.png)
+![Header](github-header-img.png)
 # My Portfolio Website
 
 Welcome to my GitHub portfolio website! I'm excited to showcase some of my web development projects and skills.
@@ -37,3 +37,4 @@ You can view the live website by going to [sridhar.engineer](https://sridhar.eng
 I'm always looking to improve my web development skills and welcome any feedback you have about my website or projects. If you have any questions or just want to say hi, please feel free to reach out to me using the contact form on my website or through my GitHub profile.
 
 Thank you for visiting my portfolio website! I hope you enjoy it.
+
