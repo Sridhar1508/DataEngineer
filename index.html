@@ -27,6 +27,32 @@
 
 <!-- {#  Template Main CSS File#} -->
   <link href= "assets/css/style.css" rel="stylesheet">
+  <style>
+    .portfolio-wrap {
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .portfolio-wrap:hover {
+      transform: scale(1.03);
+    }
+
+    .portfolio-info {
+      background: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 15px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+
+    .portfolio-wrap:hover .portfolio-info {
+      opacity: 1;
+    }
+  </style>
 
 </head>
 
@@ -557,20 +583,20 @@
           <div class="portfolio-wrap">
             <img src="assets/img/c11.png " class="img-fluid" alt="">
             <div class="portfolio-info">
+              <h4>Tuition Portal</h4>
+              <p>Web-based platform for managing tuition Center, built with HTML, CSS, JS.</p>
               <div class="portfolio-links">
                 <a href="assets/img/p3.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ></a>
-<!-- {#                <a href="#"><i class="bx bx-link"></i></a>#} -->
               </div>
                 <div class="portfolio-links">
                 <a href="assets/img/p22.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
-                <a href="https://www.phoenixtutors.tech/" target="_blank"><i class="bx bx-link"></i></a>
+                <a href="https://sridhar1508.github.io/TUITION_PORTAL/" target="_blank"><i class="bx bx-link"></i></a>
               </div>
                 <div class="portfolio-links">
-                <a href="assets/img/p11.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ></a>
-<!-- {#                    <a href="#" ><i class="bx bx-link"></i></a>#} -->
+                <!-- <a href="assets/img/p11.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ></a> -->
               </div>
                 <div class="portfolio-links">
-                <a href="assets/img/p22.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ></a>
+                <!-- <a href="assets/img/p22.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ></a> -->
               </div>
             </div>
           </div>
@@ -578,11 +604,15 @@
 
         <div class="col-lg-4 col-md-6 portfolio-item filter-app">
           <div class="portfolio-wrap">
-            <img src="assets/img/p5.png " class="img-fluid" alt="">
+            <img src="assets/img/rag_project.png " class="img-fluid" alt="">
             <div class="portfolio-info">
+              <h4>Curator Chatbot</h4>
+              <p>RAG based chatbot using LangChain, FAISS, and Groq API to answer questions from PDFs.</p>
+              <div class="portfolio-links">
+              </div>
                 <div class="portfolio-links">
-                <a href="assets/img/p5.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/srid20ad047/PORTFOLIO" target="_blank" ><i class="bx bx-link"></i></a>
+                <a href="assets/img/rag_project.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
+                <a href="https://github.com/Sridhar1508/CuratorChatbot" target="_blank"><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
@@ -591,19 +621,23 @@
           <div class="portfolio-wrap">
             <img src="assets/img/c233.png " class="img-fluid" alt="">
             <div class="portfolio-info">
+              <h4>Cognitive DevOps VQA</h4>
+              <p>Visual Question Answering system integrating AI and ML.</p>
                 <div class="portfolio-links">
-                <!-- <a href="assets/img/p5.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a> -->
                 <a href="https://github.com/Praveen-18/Cognitive_devops_VQA" target="_blank" ><i class="bx bx-link"></i></a>
               </div>
             </div>
           </div>
         </div>
+        
 
 
       </div>
 
     </div>
   </section><!-- End Portfolio Section -->
+
+  <!-- End Portfolio Section -->
 
   <!-- ======= Contact Section ======= -->
   <section id="contact" class="contact">
