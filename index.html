@@ -52,6 +52,98 @@
     .portfolio-wrap:hover .portfolio-info {
       opacity: 1;
     }
+    /* PROJECT CARD */
+
+.project-card {
+  background: #111;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+  border: 1px solid #222;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  border-color: #18d26e;
+}
+
+.project-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-content {
+  padding: 20px;
+}
+
+.project-content h4 {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.project-content p {
+  font-size: 14px;
+  color: #aaa;
+}
+
+/* TECH STACK */
+
+.tech-stack {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.tech-stack span {
+  display: inline-block;
+  background: #18d26e;
+  color: #000;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin: 3px;
+}
+
+/* BUTTONS */
+
+.project-buttons a {
+  text-decoration: none;
+  padding: 6px 14px;
+  margin-right: 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.btn-preview {
+  background: transparent;
+  border: 1px solid #18d26e;
+  color: #18d26e;
+}
+
+.btn-preview:hover {
+  background: #18d26e;
+  color: #000;
+}
+
+.btn-github {
+  background: #333;
+  color: #fff;
+}
+
+.btn-github:hover {
+  background: #555;
+}
+
+.btn-demo {
+  background: #18d26e;
+  color: #000;
+}
+
+.btn-demo:hover {
+  background: #13a456;
+}
   </style>
 
 </head>
@@ -68,7 +160,7 @@
       <!-- Uncomment below if you prefer to use an image logo -->
 
 <!-- {#      <a href="#" class="mr-auto"><img src="assets/img/logo.png " alt="" class="img-fluid"></a>#} -->
-          <h2 style="color: #18d26e">Data Engineer | AI & ML Enthusiast | Full Stack Developer</h2>
+          <h2 style="color: #18d26e">Data Engineer | Databricks | Azure | GenAI | PySpark</h2>
 
       <nav id="navbar" class="navbar">
         <ul >
@@ -94,258 +186,271 @@
   </header><!-- End Header -->
 
   <!-- ======= About Section ======= -->
-  <section id="about" class="about">
+<section id="about" class="about">
 
-    <!-- ======= About Me ======= -->
-    <div class="about-me container">
+  <!-- ======= About Me ======= -->
+  <div class="about-me container">
 
-      <div class="section-title">
-        <h2>ABOUT</h2>
-        <p>Learn more about me</p>
+    <div class="section-title">
+      <h2>ABOUT</h2>
+      <p>My journey in Data Engineering and GenAI</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-4" data-aos="fade-right">
+        <img src="assets/img/Sridhar-Photo.jpg" class="img-fluid" alt="" style="border-radius: 20%;">
       </div>
 
-      <div class="row">
-        <div class="col-lg-4" data-aos="fade-right">
-          <img src="assets/img/123.jpeg " class="img-fluid" alt="" style="border-radius: 50%;">
-        </div>
-        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h3>Data Engineer | AI & ML Enthusiast | Full Stack Developer</h3>
-          <p class="fst-italic">
-            Passionate and driven tech professional with a B.Tech in Artificial Intelligence and Data Science from R.M.K. College of Engineering and Technology, Anna University. Skilled in building scalable data pipelines, deploying intelligent systems, and crafting full stack applications. Quick learner, self-starter, and problem solver with a strong foundation in computer science and a deep enthusiasm for innovation and continuous growth.
-          </p>
-          <div class="row">
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>15 Aug 2003</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 8248233162</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Chennai , INDIA</span></li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="https://sridhar.engineer/" target="_blank">sridhar.engineer</a></span></li> -->
-                  <li><i class="bi bi-chevron-right"></i> <strong>Github:</strong> <span><a href="http://www.github.com/Sridhar1508" target="_blank">github.com/SRIDHAR</a></span></li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>SkillRack:</strong> <span><a href="http://www.skillrack.com/profile/305804/a584556a217855ea7bdfd60251229c37d5b3fb19" target="_blank">Skillrack.com/SRIDHAR</a></span></li> -->
-                   <li><i class="bi bi-chevron-right"></i> <strong>LeetCode:</strong> <span><a href="https://leetcode.com/SRIDHAR1508/" target="_blank" t>leetcode.com/SRIDHAR</a></span></li>
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.TECH</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>sridharmasthan@gmail.com</span></li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span><a href="https://www.phoenixtutors.tech/" target="_blank" t>phoenixtutors.tech</a></span></li> -->
-                <li><i class="bi bi-chevron-right"></i> <strong>Linkedin:</strong> <span><a href="https://www.linkedin.com/in/Sridhar1508/" target="_blank" t>linkedin.com/SRIDHAR</a></span></li>
-                  <!-- <li><i class="bi bi-chevron-right"></i> <strong>LeetCode:</strong> <span><a href="https://leetcode.com/SRIDHAR1508/" target="_blank" t>leetcode.com/SRIDHAR</a></span></li> -->
-              </ul>
-            </div>
-      </div>
+      <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
 
-    </div><!-- End About Me -->
+        <h3>Data Engineer | Databricks | Azure | Snowflake | dbt | GenAI Engineer</h3>
 
-    <!-- ======= Counts ======= -->
-    <div class="counts container">
+        <p class="fst-italic">
 
-      <div class="row">
+          My journey into Data Engineering started with a deep curiosity about how large-scale systems process and transform massive amounts of data efficiently. What began as learning Python and SQL gradually evolved into building real-world data pipelines and working with enterprise-grade data platforms.
 
-        <div class="col-lg-3 col-md-6">
-          <div class="count-box">
-            <i class="bi-code-slash"></i>
-            <span data-purecounter-start="0" data-purecounter-end="3000" data-purecounter-duration="1" class="purecounter"></span>
-            <p>SKILLRACK SOLVED COUNT</p>
-          </div>
-        </div>
+          Currently working as a Data Engineer at Cognizant, I design and develop scalable ETL pipelines and data ingestion frameworks using Databricks and PySpark, enabling efficient processing of healthcare data at scale. I have hands-on experience working across modern data architectures involving Snowflake, dbt, Azure Data Lake Storage Gen2 (ADLS Gen2), and AWS S3, helping build reliable and optimized data platforms.
 
-        <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-          <div class="count-box">
-            <i class="bi bi-journal-richtext"></i>
-            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
-            <p>GITHUB PROJECTS</p>
-          </div>
-        </div>
+          I specialize in building distributed data processing systems using Apache Spark, implementing medallion architecture (Bronze, Silver, Gold), optimizing ETL performance, and ensuring data quality through automated validation frameworks.
 
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi-code-slash"></i>
-            <span data-purecounter-start="0" data-purecounter-end="350" data-purecounter-duration="1" class="purecounter"></span>
-            <p>LEETCODE SOLVED COUNT</p>
-          </div>
-        </div>
+          Alongside Data Engineering, I am actively exploring Generative AI applications, building RAG-based intelligent systems using LangChain and vector databases to automate data workflows and improve engineering productivity.
 
-        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-          <div class="count-box">
-            <i class="bi bi-award"></i>
-            <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" class="purecounter"></span>
-            <p>CERTIFICATION</p>
-          </div>
-        </div>
+          My goal is to design intelligent, scalable, and future-ready data platforms that combine the power of distributed computing, cloud technologies, and AI-driven automation.
 
-      </div>
+        </p>
 
-    </div><!-- End Counts -->
+        <div class="row">
 
-    <!-- ======= Skills  ======= -->
-    <div class="skills container">
+          <div class="col-lg-6">
+            <ul>
 
-      <div class="section-title">
-        <h2>SOFTWARE SKILLS</h2>
-      </div>
+              <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>15 Aug 2003</span></li>
 
-      <div class="row skills-content">
+              <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+91 8248233162</span></li>
 
-        <div class="col-lg-6">
+              <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Chennai, India</span></li>
 
-          <div class="progress">
-            <span class="skill">Apache Spark <i class="val">85%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+              <li><i class="bi bi-chevron-right"></i> <strong>GitHub:</strong>
+                <span>
+                  <a href="https://github.com/Sridhar1508" target="_blank">
+                    github.com/Sridhar1508
+                  </a>
+                </span>
+              </li>
+
+              <li><i class="bi bi-chevron-right"></i> <strong>LeetCode:</strong>
+                <span>
+                  <a href="https://leetcode.com/SRIDHAR1508/" target="_blank">
+                    leetcode.com/SRIDHAR1508
+                  </a>
+                </span>
+              </li>
+
+            </ul>
           </div>
 
-          <div class="progress">
-            <span class="skill">PySpark <i class="val">85%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+          <div class="col-lg-6">
+            <ul>
+
+              <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+
+              <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>B.Tech Information Technology</span></li>
+
+              <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>sridharmasthan@gmail.com</span></li>
+
+              <li><i class="bi bi-chevron-right"></i> <strong>LinkedIn:</strong>
+                <span>
+                  <a href="https://www.linkedin.com/in/Sridhar1508/" target="_blank">
+                    linkedin.com/in/Sridhar1508
+                  </a>
+                </span>
+              </li>
+
+            </ul>
           </div>
-
-          <div class="progress">
-            <span class="skill">HTML <i class="val">90%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">CSS <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">JavaScript <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="col-lg-6">
-
-          <div class="progress">
-            <span class="skill">PYTHON <i class="val">99%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Git & GitHub <i class="val">95%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">Sql <i class="val">85%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">JAVA <i class="val">80%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          <div class="progress">
-            <span class="skill">C <i class="val">70%</i></span>
-            <div class="progress-bar-wrap">
-              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-
-          
 
         </div>
 
       </div>
 
-      <!-- ======= Tools & Platforms ======= -->
-      <div class="section-title mt-5">
-        <h2>TOOLS & PLATFORMS</h2>
+    </div>
+
+  </div>
+  <!-- End About Me -->
+
+
+
+  <!-- ======= Skills ======= -->
+  <div class="skills container">
+
+    <div class="section-title">
+      <h2>DATA ENGINEERING SKILLS</h2>
+    </div>
+
+    <div class="row skills-content">
+
+      <div class="col-lg-6">
+
+        <div class="progress">
+          <span class="skill">Apache Spark & Distributed Processing <i class="val">90%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
+          </div>
+        </div>
+
+        <div class="progress">
+          <span class="skill">PySpark & Databricks <i class="val">90%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
+          </div>
+        </div>
+
+        <div class="progress">
+          <span class="skill">Snowflake & dbt Transformations <i class="val">85%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="85"></div>
+          </div>
+        </div>
+
+        <div class="progress">
+          <span class="skill">Azure Data Lake (ADLS Gen2) & AWS S3 <i class="val">85%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="85"></div>
+          </div>
+        </div>
+
       </div>
 
-      <div class="row skills-content">
+      <div class="col-lg-6">
 
-        <div class="col-lg-6">
-          <ul>
-            <li>DataBricks</li>
-            <li>Microsoft Azure</li>
-            <li>VS Code</li>
-            <li>PyCharm</li>
-          </ul>
+        <div class="progress">
+          <span class="skill">Python for Data Engineering & Automation <i class="val">95%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="95"></div>
+          </div>
         </div>
 
-        <div class="col-lg-6">
-          <ul>
-            <li>Power BI</li>
-            <li>Docker</li>
-            <li>Postman</li>
-            <li>Jira</li>
-          </ul>
+        <div class="progress">
+          <span class="skill">SQL & Data Modeling <i class="val">90%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
+          </div>
+        </div>
+
+        <div class="progress">
+          <span class="skill">ETL Pipeline Design & Optimization <i class="val">90%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="90"></div>
+          </div>
+        </div>
+
+        <div class="progress">
+          <span class="skill">GenAI, LangChain & RAG Applications <i class="val">85%</i></span>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" role="progressbar" aria-valuenow="85"></div>
+          </div>
         </div>
 
       </div>
 
-    </div><!-- End Skills -->
+    </div>
 
-    <!-- ======= Interests ======= -->
-    <div class="interests container">
-      <div class="section-title"> <h2>Interests</h2> </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-lightbulb-line" style="color:#e80368;"></i> 
-            <h3>Machine Learning & Deep Learning</h3>
-          </div>
-        </div>
 
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-cloud-line" style="color: #17a2b8;"></i>
-            <h3>Cloud Computing & DevOps</h3>
-          </div>
-        </div>
 
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-lightbulb-line" style="color: #ffc107;"></i>
-            <h3>Startup Culture & Innovation</h3>
-          </div>
-        </div>
+    <!-- ======= Tools & Platforms ======= -->
 
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-book-open-line" style="color: #6610f2;"></i>
-            <h3>Tech Blogging & Knowledge Sharing</h3>
-          </div>
+    <div class="section-title mt-5">
+      <h2>TOOLS & PLATFORMS</h2>
+    </div>
+
+    <div class="row skills-content">
+
+      <div class="col-lg-6">
+        <ul>
+
+          <li>Databricks & Delta Lake</li>
+          <li>Snowflake Data Cloud</li>
+          <li>dbt (Data Build Tool)</li>
+          <li>Azure Data Lake Storage Gen2</li>
+          <li>AWS S3 Storage</li>
+          <li>Azure Data Factory</li>
+
+        </ul>
+      </div>
+
+      <div class="col-lg-6">
+        <ul>
+
+          <li>Git, GitHub & Version Control</li>
+          <li>Docker & Containerization</li>
+          <li>VS Code & PyCharm</li>
+          <li>Power BI & Data Visualization</li>
+          <li>Postman & API Testing</li>
+          <li>Jira & Agile Development</li>
+
+        </ul>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- End Skills -->
+
+
+
+  <!-- ======= Interests ======= -->
+
+  <div class="interests container">
+
+    <div class="section-title">
+      <h2>INTERESTS & FOCUS AREAS</h2>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <i class="ri-database-2-line" style="color:#18d26e;"></i>
+          <h3>Building Scalable Data Platforms</h3>
         </div>
       </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-4 mt-4">
-          <div class="icon-box">
-            <i class="ri-cpu-line" style="color: rgb(3, 98, 232);"></i>
-            <h3>Multi Model Agentic AI</h3>
-          </div>
+
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <i class="ri-cloud-line" style="color:#17a2b8;"></i>
+          <h3>Cloud Data Engineering (Azure & AWS)</h3>
         </div>
       </div>
-    </div><!-- End Interests -->
 
-    <!-- ======= Testimonials ======= -->
-    <!-- End Testimonials  -->
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <i class="ri-cpu-line" style="color:#ffc107;"></i>
+          <h3>Distributed Computing & Spark Optimization</h3>
+        </div>
+      </div>
 
-  </section><!-- End About Section -->
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <i class="ri-robot-line" style="color:#e80368;"></i>
+          <h3>Generative AI & Intelligent Data Systems</h3>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-4 mt-4">
+        <div class="icon-box">
+          <i class="ri-settings-3-line" style="color:#6610f2;"></i>
+          <h3>ETL Optimization & Data Automation</h3>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- End Interests -->
+
+</section>
+<!-- End About Section -->
 
   <!-- ======= Resume Section ======= -->
 <section id="resume" class="resume">
@@ -365,16 +470,12 @@
         <h3 class="resume-title">SUMMARY</h3>
         <div class="resume-item pb-0">
           <h4>PROFILE SUMMARY</h4>
-          <p><em>Data Engineer with 1 year of experience, specializing in designing
-            scalable data pipelines, ETL processes, and automation frameworks.
-            Proficient in Python, PySpark, SQL, and Java, with hands-on
-            experience in Azure services including Data Factory and Blob
-            Storage. Skilled in data warehousing, distributed computing, and
-            ETL orchestration using CI/CD pipelines. Strong knowledge of
-            data modeling, data quality validation, and performance tuning.
-            Reduced manual efforts by 80% through reusable automation
-            scripts. Collaborative team player with experience in Agile
-            environments.</em></p>
+          <p><em>Data Engineer with hands-on experience in designing scalable data pipelines and optimizing large-scale ETL workflows using Databricks and PySpark. Proficient in Azure Data Platform, Delta Lake, and distributed data processing.
+
+            Experienced in developing multi-threaded ingestion frameworks, automated data validation systems, and performance optimization solutions that reduced processing time by over 80%.
+
+            Currently exploring Generative AI applications including RAG-based chatbots and AI-powered SQL optimization frameworks using LangChain and LLM integration.
+          </em></p>
         </div>
 
         <h3 class="resume-title">EDUCATION</h3>
@@ -406,18 +507,15 @@
           <h4 class="resume-title">Molina Healthcare</h4>
           <h5>Jan 2025 – Present</h5>
           <ul>
-            <li>Engineered a high-performance data ingestion framework to
-              load hundreds of files in parallel, leveraging multithreading in
-              Python to reduce ingestion time by over 80%.
-            </li>
-            <li>Created an automated QA validation system to verify data
-              accuracy and generate test reports, reducing manual testing
-              effort across large datasets.
-            </li>
-            <li>Involved in the development of curation pipelines to transform
-              and structure raw data into analytics-ready tables, supporting
-              critical healthcare reporting and insights.
-            </li>
+            <li>Designed and implemented a high-performance multi-threaded data ingestion framework in Python, reducing ingestion time by over 80%.</li>
+
+            <li>Built scalable ETL pipelines using Databricks and PySpark to process large-scale healthcare datasets.</li>
+
+            <li>Developed automated data validation and QA frameworks ensuring schema accuracy and data integrity.</li>
+
+            <li>Contributed to building curated analytics layers using Delta Lake architecture.</li>
+
+            <li>Worked in Agile environment collaborating with cross-functional teams including QA, DevOps, and Data Architects.</li>
           </ul>
           <h4 class="resume-title">GainWell Technologies</h4>
           <h5>Aug 2024 – Dec 2024</h5>
@@ -485,6 +583,45 @@
       </div>
 
       <div class="row">
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <a href="#" target="_blank">
+              <img src="assets/img/certificates/Databricks_Data_Engineer_Associate.png" width="330px">
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <a href="#" target="_blank">
+              <img src="assets/img/certificates/Databricks_Data_Engineer_Associate_Badge.png" width="330px">
+            </a>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <a href="#" target="_blank">
+              <img src="assets/img/certificates/Databricks Lakehouse Fundamentals.png" width="330px">
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <a href="#" target="_blank">
+              <img src="assets/img/certificates/Databricks Lakehouse Fundamentals - Badge.png" width="330px">
+            </a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <a href="#" target="_blank">
+              <img src="assets/img/certificates/Cloud Native SPARK Migration.png" width="330px">
+            </a>
+        </div>
+
+      
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <a href="#" target="_blank">
+              <img src="assets/img/certificates/Cloud Native SPARK Migration - Badge.png" width="330px">
+            </a>
+        </div>
+
+      
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <a href="https://credentials.databricks.com/f977397b-3945-4861-aa00-a54e437fbdc2" target="_blank">
               <img src="assets/img/databricks_certificate.jpg" width="330px">
@@ -495,6 +632,18 @@
             <a href="https://credentials.databricks.com/f977397b-3945-4861-aa00-a54e437fbdc2" target="_blank">
               <img src="assets/img/databricks_certificate_2.jpg" width="330px">
             </a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <img src="assets/img/certificates/SQL.jpg" width="330px">
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <img src="assets/img/certificates/SNOWFLAKE.jpg" width="330px">
+        </div>
+        
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <img src="assets/img/certificates/DBT.jpg" width="330px">
         </div>
 
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
@@ -560,82 +709,296 @@
     </div>
   </section><!-- End Services Section -->
 
-  <!-- ======= Portfolio Section ======= -->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
+  <!-- ======= Portfolio Section (Redesigned) ======= -->
+<section id="portfolio" class="portfolio">
+  <div class="container">
 
-      <div class="section-title">
-        <h2>Projects</h2>
-        <p>MY PROJECTS</p>
+    <div class="section-title">
+      <h2>Projects</h2>
+      <p>Enterprise Data Engineering & Generative AI Solutions</p>
+    </div>
+
+    <div class="row g-4">
+
+  <!-- AI PRD / BRD Generator Agent -->
+  <div class="col-lg-4 col-md-6">
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="assets/img/project_bdr_prd.png" alt="">
       </div>
 
-      <div class="row">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">PROJECTS</li>
-          </ul>
-        </div>
-      </div>
+      <div class="project-content">
 
-      <div class="row portfolio-container">
+        <h4>AI-Powered PRD & BRD Generation Agent</h4>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/c11.png " class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Tuition Portal</h4>
-              <p>Web-based platform for managing tuition Center, built with HTML, CSS, JS.</p>
-              <div class="portfolio-links">
-                <a href="assets/img/p3.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ></a>
-              </div>
-                <div class="portfolio-links">
-                <a href="assets/img/p22.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
-                <a href="https://sridhar1508.github.io/TUITION_PORTAL/" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-                <div class="portfolio-links">
-                <!-- <a href="assets/img/p11.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ></a> -->
-              </div>
-                <div class="portfolio-links">
-                <!-- <a href="assets/img/p22.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ></a> -->
-              </div>
-            </div>
-          </div>
+        <p>
+          Developed an intelligent AI agent that automatically generates structured Product Requirements 
+          Documents (PRDs) and Business Requirements Documents (BRDs) from natural language inputs. 
+          Leveraging modular agents, prompt engineering, and LLM orchestration, the system produces 
+          clear, professional documentation including functional requirements, user stories, risks, 
+          and acceptance criteria, significantly reducing manual effort and improving documentation quality.
+        </p>
+
+        <div class="tech-stack">
+          <span>Python</span>
+          <span>LLM</span>
+          <span>Prompt Engineering</span>
+          <span>Agent Architecture</span>
+          <span>GenAI</span>
         </div>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/rag_project.png " class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Curator Chatbot</h4>
-              <p>RAG based chatbot using LangChain, FAISS, and Groq API to answer questions from PDFs.</p>
-              <div class="portfolio-links">
-              </div>
-                <div class="portfolio-links">
-                <a href="assets/img/rag_project.png " data-gallery="portfolioGallery" class="portfolio-lightbox" ><i class="bx bx-plus"></i></a>
-                <a href="https://github.com/Sridhar1508/CuratorChatbot" target="_blank"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/img/c233.png " class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Cognitive DevOps VQA</h4>
-              <p>Visual Question Answering system integrating AI and ML.</p>
-                <div class="portfolio-links">
-                <a href="https://github.com/Praveen-18/Cognitive_devops_VQA" target="_blank" ><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        
+        <div class="project-buttons">
 
+          <a href="assets/img/project_bdr_prd.png"
+            class="btn-preview portfolio-lightbox"
+            data-gallery="portfolioGallery">
+            Preview
+          </a>
+
+          <a href="https://github.com/Sridhar1508/PRD_BRD_Agent"
+            target="_blank"
+            class="btn-github">
+            GitHub
+          </a>
+
+        </div>
 
       </div>
 
     </div>
-  </section><!-- End Portfolio Section -->
+  </div>
+
+
+  <!-- SQL Data Lineage Generator using LLM -->
+  <div class="col-lg-4 col-md-6">
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="assets/img/project_sql_lineage.png" alt="">
+      </div>
+
+      <div class="project-content">
+
+        <h4>AI-Powered SQL Data Lineage Generator</h4>
+
+        <p>
+          Built an intelligent system that analyzes SQL Server stored procedures to extract table-level 
+          and column-level lineage using custom SQL parsers and LLM agents. The solution generates clear, 
+          human-readable lineage documentation and provides a web interface for visualization and analysis.
+        </p>
+
+        <div class="tech-stack">
+          <span>Python</span>
+          <span>LLM</span>
+          <span>SQL Server</span>
+          <span>Prompt Engineering</span>
+          <span>Docker</span>
+        </div>
+
+        <div class="project-buttons">
+          <a href="assets/img/project_sql_lineage.png"
+            class="btn-preview portfolio-lightbox"
+            data-gallery="portfolioGallery">
+            Preview
+          </a>
+
+          <a href="https://github.com/Sridhar1508/MS_SQL_SP_Agent"
+            target="_blank"
+            class="btn-github">
+            GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Spark Optimization using LLM -->
+  <div class="col-lg-4 col-md-6">
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="assets/img/project_spark_optimizer.png" alt="">
+      </div>
+
+      <div class="project-content">
+
+        <h4>AI-Based Apache Spark Performance Optimizer</h4>
+
+        <p>
+          Developed an AI-powered performance optimization tool that analyzes PySpark jobs using static code 
+          analysis and runtime metrics. The system leverages LLMs to generate intelligent recommendations for 
+          improving Spark performance, reducing execution time, and optimizing resource utilization.
+        </p>
+
+        <div class="tech-stack">
+          <span>PySpark</span>
+          <span>Python</span>
+          <span>LLM</span>
+          <span>Performance Tuning</span>
+          <span>Web Dashboard</span>
+        </div>
+
+        <div class="project-buttons">
+          <a href="assets/img/project_spark_optimizer.png"
+            class="btn-preview portfolio-lightbox"
+            data-gallery="portfolioGallery">
+            Preview
+          </a>
+
+          <a href="https://github.com/Sridhar1508/spark_optimizer"
+            target="_blank"
+            class="btn-github">
+            GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Snowflake dbt Analytics Project -->
+  <div class="col-lg-4 col-md-6">
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="assets/img/project_snowflake_dbt.png" alt="">
+      </div>
+
+      <div class="project-content">
+
+        <h4>Snowflake dbt Analytics Engineering Project</h4>
+
+        <p>
+          Built a production-grade analytics pipeline using dbt and Snowflake to transform raw e-commerce data 
+          into clean, analytics-ready models. Implemented staging, intermediate, and mart layers with data quality 
+          tests, snapshots, and reusable macros to enable scalable and reliable business reporting.
+        </p>
+
+        <div class="tech-stack">
+          <span>dbt</span>
+          <span>Snowflake</span>
+          <span>SQL</span>
+          <span>Data Modeling</span>
+          <span>Analytics Engineering</span>
+        </div>
+
+        <div class="project-buttons">
+          <a href="assets/img/project_snowflake_dbt.png"
+            class="btn-preview portfolio-lightbox"
+            data-gallery="portfolioGallery">
+            Preview
+          </a>
+
+          <a href="https://github.com/Sridhar1508/ecommerce_snowflake_dbt"
+            target="_blank"
+            class="btn-github">
+            GitHub
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Tuition Portal -->
+  <div class="col-lg-4 col-md-6">
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="assets/img/project_tms.png" alt="">
+      </div>
+
+      <div class="project-content">
+
+        <h4>Tuition Management Portal</h4>
+
+        <p>
+          Developed a full-stack web application to manage student records, attendance tracking, and payment 
+          management. Includes dynamic UI, automated workflows, and centralized academic and financial tracking.
+        </p>
+
+        <div class="tech-stack">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Web App</span>
+        </div>
+
+        <div class="project-buttons">
+
+          <a href="assets/img/project_tms.png"
+            class="btn-preview portfolio-lightbox"
+            data-gallery="portfolioGallery">
+            Preview
+          </a>
+
+          <a href="https://github.com/Sridhar1508/TUITION_PORTAL"
+            target="_blank"
+            class="btn-github">
+            GitHub
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Curator Chatbot -->
+  <div class="col-lg-4 col-md-6">
+    <div class="project-card">
+
+      <div class="project-image">
+        <img src="assets/img/project_chatbot.png" alt="">
+      </div>
+
+      <div class="project-content">
+
+        <h4>Curator Chatbot (RAG-based Document Assistant)</h4>
+
+        <p>
+          Built a Retrieval-Augmented Generation chatbot using LangChain, FAISS, and LLMs to enable intelligent 
+          querying of documents and structured data, delivering accurate and context-aware responses.
+        </p>
+
+        <div class="tech-stack">
+          <span>LangChain</span>
+          <span>FAISS</span>
+          <span>LLM</span>
+          <span>Python</span>
+        </div>
+
+        <div class="project-buttons">
+
+          <a href="assets/img/project_chatbot.png"
+            class="btn-preview portfolio-lightbox"
+            data-gallery="portfolioGallery">
+            Preview
+          </a>
+
+          <a href="https://github.com/Sridhar1508/CuratorChatbot"
+            target="_blank"
+            class="btn-github">
+            GitHub
+          </a>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+  </div>
+</section>
 
   <!-- End Portfolio Section -->
 
@@ -696,7 +1059,8 @@
     <!-- You can delete the links only if you purchased the pro version. -->
     <!-- Licensing information: https://bootstrapmade.com/license/ -->
     <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
-    Designed by <a href="#">SRIDHAR</a>
+    <!-- Designed by <a href="#">SRIDHAR</a> -->
+    © 2026 SRIDHAR | Data Engineer
   </div>
 
   <!-- Vendor JS Files -->
